@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap/css/bootstrap.min.css') }}">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='upload/css/upload.css') }}">
+    </head>
+    <body>
+        <div class="file-upload">
+          <h2>
+            {% if error %}
+            Warning: {{error}}
+            {% endif %}
+          </h2>
+            <div class="file-select">
+              <div class="file-select-button" id="fileName">Choose File</div>
+              <div class="file-select-name" id="noFile">No file chosen...</div> 
+              <form action = "{{ url_for('.upload') }}" method = "POST" 
+        enctype = "multipart/form-data">
+              <input type="file" name="file" id="chooseFile" onchange="form.submit()">
+              </form>
+            </div>
+          </div>
+        <script src="{{ url_for('static',filename='boostrap/js/bootstrap.min.js') }}"></script>
+    </body>
+    
+</html>
+
+
