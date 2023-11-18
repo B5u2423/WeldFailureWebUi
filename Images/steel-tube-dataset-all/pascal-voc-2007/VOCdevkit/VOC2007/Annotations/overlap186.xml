@@ -1,0 +1,27 @@
+<annotation>
+<folder>output-images3</folder>
+<filename>overlap186.png</filename>
+<path>E:\Yangdingming\Documents\output-images3\overlap186.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>958</width>
+    <height>653</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>overlap</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>691</xmin>
+        <ymin>338</ymin>
+        <xmax>727</xmax>
+        <ymax>368</ymax>
+    </bndbox>
+</object>
+</annotation>

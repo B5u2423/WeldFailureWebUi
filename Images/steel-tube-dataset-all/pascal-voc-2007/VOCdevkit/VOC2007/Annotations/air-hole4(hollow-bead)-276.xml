@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole4(hollow-bead)-276.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole4(hollow-bead)-276.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1182</width>
+    <height>820</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>296</xmin>
+        <ymin>108</ymin>
+        <xmax>311</xmax>
+        <ymax>123</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>342</xmin>
+        <ymin>155</ymin>
+        <xmax>359</xmax>
+        <ymax>170</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>394</xmin>
+        <ymin>202</ymin>
+        <xmax>409</xmax>
+        <ymax>217</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>724</xmin>
+        <ymin>502</ymin>
+        <xmax>740</xmax>
+        <ymax>517</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>859</xmin>
+        <ymin>630</ymin>
+        <xmax>877</xmax>
+        <ymax>645</ymax>
+    </bndbox>
+</object>
+</annotation>

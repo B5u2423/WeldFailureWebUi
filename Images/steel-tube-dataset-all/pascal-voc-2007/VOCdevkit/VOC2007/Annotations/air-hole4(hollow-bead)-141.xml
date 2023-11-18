@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole4(hollow-bead)-141.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole4(hollow-bead)-141.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1182</width>
+    <height>820</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>hollow-bead</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>416</xmin>
+        <ymin>518</ymin>
+        <xmax>472</xmax>
+        <ymax>563</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>477</xmin>
+        <ymin>577</ymin>
+        <xmax>501</xmax>
+        <ymax>597</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>216</xmin>
+        <ymin>322</ymin>
+        <xmax>231</xmax>
+        <ymax>337</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>147</xmin>
+        <ymin>260</ymin>
+        <xmax>163</xmax>
+        <ymax>272</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>131</xmin>
+        <ymin>243</ymin>
+        <xmax>146</xmax>
+        <ymax>257</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>51</xmin>
+        <ymin>170</ymin>
+        <xmax>66</xmax>
+        <ymax>185</ymax>
+    </bndbox>
+</object>
+</annotation>

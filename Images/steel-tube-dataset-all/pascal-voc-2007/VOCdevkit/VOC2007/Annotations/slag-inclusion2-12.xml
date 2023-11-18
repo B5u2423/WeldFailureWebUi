@@ -1,0 +1,27 @@
+<annotation>
+<folder>output-images3</folder>
+<filename>slag-inclusion2-12.png</filename>
+<path>E:\Yangdingming\Documents\output-images3\slag-inclusion2-12.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>958</width>
+    <height>653</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>slag-inclusion</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>277</xmin>
+        <ymin>162</ymin>
+        <xmax>365</xmax>
+        <ymax>204</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+<folder>output-images3</folder>
+<filename>unfused06.png</filename>
+<path>E:\Yangdingming\Documents\output-images3\unfused06.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>958</width>
+    <height>653</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>unfused</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>796</xmin>
+        <ymin>220</ymin>
+        <xmax>951</xmax>
+        <ymax>260</ymax>
+    </bndbox>
+</object>
+</annotation>

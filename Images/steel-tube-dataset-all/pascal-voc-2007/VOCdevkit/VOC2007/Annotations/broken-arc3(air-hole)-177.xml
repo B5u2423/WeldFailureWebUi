@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>broken-arc3(air-hole)-177.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\broken-arc3(air-hole)-177.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1181</width>
+    <height>815</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>197</xmin>
+        <ymin>221</ymin>
+        <xmax>216</xmax>
+        <ymax>236</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>462</xmin>
+        <ymin>491</ymin>
+        <xmax>482</xmax>
+        <ymax>505</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>broken-arc</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>476</xmin>
+        <ymin>548</ymin>
+        <xmax>866</xmax>
+        <ymax>811</ymax>
+    </bndbox>
+</object>
+</annotation>

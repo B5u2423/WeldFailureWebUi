@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole9(slag-inclusion)-078.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole9(slag-inclusion)-078.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1180</width>
+    <height>813</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>781</xmin>
+        <ymin>755</ymin>
+        <xmax>801</xmax>
+        <ymax>768</ymax>
+    </bndbox>
+</object>
+</annotation>

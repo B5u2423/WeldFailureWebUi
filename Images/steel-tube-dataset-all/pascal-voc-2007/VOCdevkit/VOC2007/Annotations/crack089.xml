@@ -1,0 +1,27 @@
+<annotation>
+<folder>output-images3</folder>
+<filename>crack089.png</filename>
+<path>E:\Yangdingming\Documents\output-images3\crack089.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>958</width>
+    <height>653</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>crack</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>635</xmin>
+        <ymin>424</ymin>
+        <xmax>721</xmax>
+        <ymax>517</ymax>
+    </bndbox>
+</object>
+</annotation>

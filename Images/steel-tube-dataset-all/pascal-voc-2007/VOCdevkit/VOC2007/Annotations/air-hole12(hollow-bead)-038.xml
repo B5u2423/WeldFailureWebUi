@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole12(hollow-bead)-038.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole12(hollow-bead)-038.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1178</width>
+    <height>817</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>601</xmin>
+        <ymin>396</ymin>
+        <xmax>614</xmax>
+        <ymax>410</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>414</xmin>
+        <ymin>216</ymin>
+        <xmax>432</xmax>
+        <ymax>233</ymax>
+    </bndbox>
+</object>
+</annotation>

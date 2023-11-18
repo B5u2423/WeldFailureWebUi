@@ -1,0 +1,27 @@
+<annotation>
+<folder>output-images3</folder>
+<filename>bite-edge2-14.png</filename>
+<path>E:\Yangdingming\Documents\output-images3\bite-edge2-14.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>958</width>
+    <height>653</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>bite-edge</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>693</xmin>
+        <ymin>285</ymin>
+        <xmax>796</xmax>
+        <ymax>334</ymax>
+    </bndbox>
+</object>
+</annotation>

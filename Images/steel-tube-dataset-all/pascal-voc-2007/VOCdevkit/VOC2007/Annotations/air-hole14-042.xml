@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole14-042.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole14-042.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1178</width>
+    <height>817</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>504</xmin>
+        <ymin>30</ymin>
+        <xmax>524</xmax>
+        <ymax>48</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>572</xmin>
+        <ymin>101</ymin>
+        <xmax>589</xmax>
+        <ymax>115</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>671</xmin>
+        <ymin>191</ymin>
+        <xmax>692</xmax>
+        <ymax>210</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>740</xmin>
+        <ymin>261</ymin>
+        <xmax>755</xmax>
+        <ymax>274</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>887</xmin>
+        <ymin>401</ymin>
+        <xmax>907</xmax>
+        <ymax>418</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>929</xmin>
+        <ymin>440</ymin>
+        <xmax>944</xmax>
+        <ymax>453</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>949</xmin>
+        <ymin>455</ymin>
+        <xmax>969</xmax>
+        <ymax>471</ymax>
+    </bndbox>
+</object>
+</annotation>

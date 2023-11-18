@@ -1,0 +1,27 @@
+<annotation>
+<folder>output-images3</folder>
+<filename>broken-arc1-00.png</filename>
+<path>E:\Yangdingming\Documents\output-images3\broken-arc1-00.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>958</width>
+    <height>653</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>broken-arc</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>555</xmin>
+        <ymin>154</ymin>
+        <xmax>868</xmax>
+        <ymax>248</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole10-206.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole10-206.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1182</width>
+    <height>817</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>229</xmin>
+        <ymin>185</ymin>
+        <xmax>249</xmax>
+        <ymax>201</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>487</xmin>
+        <ymin>443</ymin>
+        <xmax>507</xmax>
+        <ymax>460</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>666</xmin>
+        <ymin>610</ymin>
+        <xmax>686</xmax>
+        <ymax>626</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -52,3 +52,5 @@ def process(filename):
 @app.route("/")
 def upload_page():
     return render_template('uploadpage.html', error=None)
+
+app.run(debug=True)

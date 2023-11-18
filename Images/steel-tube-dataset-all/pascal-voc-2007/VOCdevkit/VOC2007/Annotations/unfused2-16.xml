@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>unfused2-16.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\unfused2-16.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1181</width>
+    <height>818</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>unfused</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>872</xmin>
+        <ymin>527</ymin>
+        <xmax>936</xmax>
+        <ymax>582</ymax>
+    </bndbox>
+</object>
+</annotation>

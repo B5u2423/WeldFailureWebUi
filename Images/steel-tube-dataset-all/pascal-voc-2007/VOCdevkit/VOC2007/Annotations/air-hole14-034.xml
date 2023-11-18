@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>output-images3</folder>
+<filename>air-hole14-034.jpg</filename>
+<path>E:\Yangdingming\Documents\output-images3\air-hole14-034.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1178</width>
+    <height>817</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>507</xmin>
+        <ymin>150</ymin>
+        <xmax>522</xmax>
+        <ymax>165</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>890</xmin>
+        <ymin>516</ymin>
+        <xmax>909</xmax>
+        <ymax>534</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>931</xmin>
+        <ymin>556</ymin>
+        <xmax>949</xmax>
+        <ymax>573</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>air-hole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1054</xmin>
+        <ymin>670</ymin>
+        <xmax>1074</xmax>
+        <ymax>685</ymax>
+    </bndbox>
+</object>
+</annotation>
