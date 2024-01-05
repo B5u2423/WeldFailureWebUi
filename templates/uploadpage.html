@@ -1,28 +1,177 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap/css/bootstrap.min.css') }}">
-        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='upload/css/upload.css') }}">
-    </head>
-    <body>
-        <div class="file-upload">
-          <h2>
-            {% if error %}
-            Warning: {{error}}
-            {% endif %}
-          </h2>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='bootstrap/css/bootstrap.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='upload/css/upload.css') }}"
+    />
+    <style>
+      #languageSelect {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        padding: 8px 18px;
+        background-color: rgba(
+          17.00000088661909,
+          27.000000290572643,
+          71.00000336766243,
+          1
+        );
+        width: 120px;
+        height: 40px;
+        border-radius: 10px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="e2_2">
+      <div class="e3_214">
+        <div class="e3_148"></div>
+
+        <div class="e3_188">
+          {% if fileUrl %}
+          <img
+            src="{{ fileUrl }}"
+            alt="Kết quả"
+            style="width: 506px; height: 347px"
+          />
+          {% endif %}
+        </div>
+
+        <div class="e3_192">
+          <!-- Đoạn mã ô input -->
+          <div class="file-upload">
             <div class="file-select">
-              <div class="file-select-button" id="fileName">Choose File</div>
-              <div class="file-select-name" id="noFile">No file chosen...</div> 
-              <form action = "{{ url_for('.upload') }}" method = "POST" 
-        enctype = "multipart/form-data">
-              <input type="file" name="file" id="chooseFile" onchange="form.submit()">
+              <form
+                id="uploadForm"
+                action="{{ url_for('.upload') }}"
+                method="POST"
+                enctype="multipart/form-data"
+              >
+                <input type="file" name="file" id="chooseFile" />
               </form>
+              <div class="e3_191" id="selectImage"></div>
             </div>
+            <!-- Kết thúc đoạn mã ô input -->
           </div>
-        <script src="{{ url_for('static',filename='boostrap/js/bootstrap.min.js') }}"></script>
-    </body>
-    
+        </div>
+
+        <div class="e3_212">
+          <div class="e3_187">
+            {% if fileInput %}
+            <img
+              src="{{ fileInput }}"
+              alt="Đầu vào"
+              style="width: 506px; height: 347px"
+            />
+            {% endif %}
+          </div>
+          <div class="e3_204" id="uploadedImage"></div>
+
+          <!-- Đoạn mã thêm vào để hiển thị ảnh -->
+        </div>
+
+        <div class="e3_195">
+          <div id="selectedLanguageDisplay" class="e3_193"></div>
+        </div>
+      </div>
+
+      <div class="e3_213">
+        <div class="e3_198">
+          <div class="e3_211">
+            <select
+              id="languageSelect"
+              class="form-control"
+              onchange="changeLanguage(this)"
+              class="languageSelect"
+            >
+              <option value="vi">Tiếng Việt</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+        </div>
+        <div class="e3_147">
+          <div class="e3_145"></div>
+          <div class="e3_146" id="title"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Lấy thẻ form và thẻ input
+      var uploadForm = document.getElementById("uploadForm");
+      var chooseFile = document.getElementById("chooseFile");
+
+      // Thêm sự kiện onchange vào ô input
+      chooseFile.addEventListener("change", function () {
+        // Gọi hàm displayImage khi có sự thay đổi trong ô input
+        displayImage(chooseFile);
+
+        // Gửi form khi có sự thay đổi trong ô input
+        uploadForm.submit();
+      });
+
+      function displayImage(input) {
+        var fileInput = input;
+        var uploadedImage = document.getElementById("uploadedImage");
+
+        if (fileInput.files && fileInput.files[0]) {
+          var reader = new FileReader();
+
+          reader.onload = function (e) {
+            // Tạo thẻ img
+            var img = document.createElement("img");
+            img.src = e.target.result;
+            img.className = "uploaded-image";
+
+            // Thu nhỏ ảnh (ví dụ: 200px chiều rộng)
+            img.style.width = "506px";
+            img.style.height = "347px";
+
+            // Hiển thị ảnh
+            uploadedImage.innerHTML = "";
+            uploadedImage.appendChild(img);
+          };
+
+          reader.readAsDataURL(fileInput.files[0]);
+        }
+      }
+
+      var selectedLanguage = "vi"; // Giá trị mặc định, bạn có thể thay đổi nếu cần
+
+      function changeLanguage(selectElement) {
+        // Lấy giá trị được chọn từ thẻ <select>
+        selectedLanguage = selectElement.value;
+        if (selectedLanguage === "vi") {
+          document.getElementById("selectedLanguageDisplay").innerText =
+            "Kết quả";
+          document.getElementById("title").innerText = "Nhận diện mối hàn";
+          document.getElementById("selectImage").innerText = "Chọn ảnh";
+        } else {
+          document.getElementById("selectedLanguageDisplay").innerText =
+            "Result";
+          document.getElementById("title").innerText = "Weld Failure Detection";
+          document.getElementById("selectImage").innerText = "Select image";
+        }
+        // Hiển thị giá trị được chọn trong nội dung HTML (hoặc thực hiện các hành động khác)
+      }
+
+      if (selectedLanguage === "vi") {
+        document.getElementById("selectedLanguageDisplay").innerText =
+          "Kết quả";
+        document.getElementById("title").innerText = "Nhận diện mối hàn ";
+        document.getElementById("selectImage").innerText = "Chọn ảnh";
+      }
+    </script>
+  </body>
 </html>
-
-
